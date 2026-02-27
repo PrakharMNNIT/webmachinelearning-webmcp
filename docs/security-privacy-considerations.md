@@ -353,14 +353,6 @@ To advance the security and privacy posture of WebMCP, we need community input o
 
 **How:** This restriction would not fully solve prompt injection attacks but helps shrink the possible universe of attacks, preventing longer prompts that leverage e.g. repetition and [sockpuppeting](https://arxiv.org/pdf/2601.13359) to convince agents of malicious tasks.
 
-#### [Proposal: Treat hidden and visible elements in declarative MCP differently](https://github.com/webmachinelearning/webmcp/issues/95)
-
-**What:** Potentially restrict filling out hidden elements in declarative WebMCP
-
-**Threats addressed:** Over-Parameterization through the declarative API
-
-**How:** By ensuring that the user sees all the content before it gets submitted
-
 #### [Supporting interoperable probabilistic defense structures through shared attack eval datasets](https://github.com/webmachinelearning/webmcp/issues/106)
 
 **What:** Shared evals for prompt injection attacks against WebMCP 
